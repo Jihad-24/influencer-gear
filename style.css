@@ -4,4 +4,37 @@
 /* shared style */
 *{
 font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+}
+body{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header section style */
+
+/* nav style */
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+nav > ul {
+    display: flex;
+}
+ul > li{
+    list-style: none;
+    margin-right: 20px;
+}
+ul > li > a {
+    text-decoration: none;
+    color: #3A3A3A;
+font-size: 1rem;
+font-weight: 600;
+}
+.nav-title{
+    color: #3A3A3A;
+font-size: 1.5rem;
+font-weight: 700;
 }
